@@ -1,0 +1,13 @@
+.app_container {
+  text-align:center;
+  align-items: center;
+  background-color: #b3bac1;
+  font: 400 14px/20px "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;  
+  position: fixed;
+  width: 100%;
+  z-index: 2;  
+}

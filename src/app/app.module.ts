@@ -13,8 +13,7 @@ import { ResultsModule } from './results/results.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    ResultsModule
+    HttpClientModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

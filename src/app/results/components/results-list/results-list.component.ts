@@ -25,6 +25,7 @@ export class ResultsListComponent implements OnChanges, OnInit {
     this.options = Object.values(this.sportTypeKeyEnum);
   }
 
+  // reacts to input members 
   ngOnChanges(changes: SimpleChanges) {
     if (changes['results']?.currentValue != null) {
       this.tennisResults = (changes['results'].currentValue?.tennis != null) ? this.sortResults([...(changes['results'].currentValue.tennis)]) : '';
@@ -33,6 +34,7 @@ export class ResultsListComponent implements OnChanges, OnInit {
     }
   }
 
+  // is lifecycle hook and callback method that indicates component has been created
   ngOnInit(): void {
   }
 
