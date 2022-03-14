@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Structure of the project
+- core:
+  - constants
+  - enums
+  - facades
+  - mock
+  - models
+  - services
+- results: UI components
+  - Container   - results      - aware of exisitence of the state. Subscribes to select() and dispatch actions to update state
+  - Components  - results-list - presentation component
+
+  Added flag to environment to swtich between mock and real data 
+  - useMockService: true

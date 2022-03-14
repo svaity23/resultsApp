@@ -1,0 +1,12 @@
+.results-title {
+  align-items: center;
+  background-color: #b3bac1;
+  font: 400 14px/20px "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 60px;  
+  // min-width: 850px;  
+  position: fixed;
+  width: 100%;
+  z-index: 2;  
+}
