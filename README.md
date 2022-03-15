@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   - models
   - services
 - results: UI components
-  - Container   - results      - aware of exisitence of the state. Subscribes to select() and dispatch actions to update state
+  - Container   - results      - aware of exisitence of the state.
   - Components  - results-list - presentation component
 
   Added flag to environment to swtich between mock and real data 
